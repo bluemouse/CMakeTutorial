@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 
-project(PikaPika VERSION 1.0.0)
+project(Pikachu VERSION 1.0.0)
 
 # message(STATUS PROJECT_NAME="${PROJECT_NAME}")
 
