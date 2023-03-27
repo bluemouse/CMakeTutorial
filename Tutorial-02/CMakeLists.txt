@@ -17,16 +17,11 @@ set(HEADER_FILES
   include/Meowth.h
 )
 
-add_library(${PROJECT_NAME}
+# @STATIC/SHARED
+add_library(${PROJECT_NAME} STATIC
   ${HEADER_FILES}
   ${SRC_FILES}
 )
-
-# @STATIC/SHARED
-# add_library(${PROJECT_NAME} SHARED
-#   ${HEADER_FILES}
-#   ${SRC_FILES}
-# )
 
 target_include_directories(${PROJECT_NAME}
   PRIVATE
@@ -34,12 +29,13 @@ target_include_directories(${PROJECT_NAME}
 )
 
 
-#  @targets
+# @targets
 # add_library(${PROJECT_NAME}_shared SHARED EXCLUDE_FROM_ALL
 #   ${HEADER_FILES}
 #   ${SRC_FILES}
 # )
-
+# set_target_properties(${PROJECT_NAME}_shared PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
+#
 # target_include_directories(${PROJECT_NAME}_shared
 #   PRIVATE
 #     include

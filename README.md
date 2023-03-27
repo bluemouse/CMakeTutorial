@@ -18,4 +18,4 @@
 ## Tutorials
 - Tutorial-01: simple executable project
 - Tutorial-02: simple library project
-- Tutorial-03: options
+- Tutorial-03: options/list/object library
