@@ -14,4 +14,9 @@
     - "Visual Studio 16 2019"
     - "Xcode'
   - verbose: *cmake --build Build --verbose*
+- [target_include_directories()](https://cmake.org/cmake/help/latest/command/target_include_directories.html)
+  - PRIVATE
+- [target_link_libraries()](https://cmake.org/cmake/help/latest/command/target_link_libraries.html)
+- [set_target_properties()](https://cmake.org/cmake/help/latest/command/set_target_properties.html)
+  - [OUTPUT_NAME](https://cmake.org/cmake/help/latest/prop_tgt/OUTPUT_NAME.html)
 

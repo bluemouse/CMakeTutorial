@@ -20,4 +20,4 @@
 - [list()](https://cmake.org/cmake/help/latest/command/list.html)
 - [add_library()](https://cmake.org/cmake/help/latest/command/add_library.html)
   - OBJECT
-
+- [target_compile_definitions()](https://cmake.org/cmake/help/latest/command/target_compile_definitions.html)
