@@ -25,3 +25,14 @@
 
 
 ## Best Practices
+- [Do's and Don'ts](https://cliutils.gitlab.io/modern-cmake/chapters/intro/dodonot.html)
+- [Effective Modern CMake](https://gist.github.com/mbinna/c61dbb39bca0e4fb7d1f73b0d66a4fd1)
+- My suggestions:
+  - Coding style:
+    - Lowercase functions (convention)
+    - Uppercase variables (convention)
+    - Case-preserved package name (rule)
+  - Use targets
+  - Use targets
+  - Use targets
+  - Always quote path variables

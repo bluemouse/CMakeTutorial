@@ -1,5 +1,3 @@
-## Library
-
 ## Build Procedure
 - configure: `cmake -S . -B Build`
 - build: `cmake --build Build`
