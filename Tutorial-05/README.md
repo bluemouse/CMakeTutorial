@@ -8,7 +8,7 @@
 
 ## CMakeLists.txt
 - [find_package()](https://cmake.org/cmake/help/latest/command/find_package.html)
-  - `cmake cmake -S . -B Build -D CMAKE_BUILD_TYPE=Release -D SDL2_ROOT=../externals/install/SDL --debug-find-pkg=SDL2`
+  - `cmake -S . -B Build -D CMAKE_BUILD_TYPE=Release -D SDL2_ROOT=../externals/install/SDL --debug-find-pkg=SDL2`
   - Search modes:
     - Module mode
       - [CMAKE_MODULE_PATH](https://cmake.org/cmake/help/latest/variable/CMAKE_MODULE_PATH.html)
