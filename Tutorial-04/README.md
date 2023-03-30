@@ -1,7 +1,8 @@
+# Sub-project, Target and Transitive Scope
 
 ## Build Procedure
-- configure: `cmake -S . -B Build -D CMAKE_BUILD_TYPE=Release`
-- build: `cmake --build Build --verbose`
+- Configure: `cmake -S . -B Build -D CMAKE_BUILD_TYPE=Release`
+- Build: `cmake --build Build --verbose`
 
 ## CMakeLists.txt
 - [add_subdirectory()](https://cmake.org/cmake/help/latest/command/add_subdirectory.html)

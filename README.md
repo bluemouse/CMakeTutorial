@@ -18,8 +18,8 @@
 ## Tutorials
 - [Tutorial-01](./Tutorial-01/README.md): simple executable project
 - [Tutorial-02](./Tutorial-02/README.md): simple library project
-- [Tutorial-03](./Tutorial-03/README.md): option/list/object library
-- [Tutorial-04](./Tutorial-04/README.md): sub project/link library/target
+- [Tutorial-03](./Tutorial-03/README.md): option/variable/object library target
+- [Tutorial-04](./Tutorial-04/README.md): sub project/target/transitive scope
 - [Tutorial-05](./Tutorial-05/README.md): SDL2/find_package(): config mode
 - [Tutorial-06](./Tutorial-06/README.md): imgui/out-of-source subdirectory/find_package(): module mode
 

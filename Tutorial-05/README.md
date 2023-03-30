@@ -1,10 +1,11 @@
+# Dependency and find_package(): Config Mode
 
 ## Build Procedure
-- build SDL
+- Build SDL
   - `cmake -S . -B Build -D CMAKE_INSTALL_PREFIX=../install/SDL`
   - `cmake --build Build --target install`
-- configure: `cmake -S . -B Build -D CMAKE_BUILD_TYPE=Release -D SDL2_ROOT=../externals/install/SDL`
-- build: `cmake --build Build --verbose`
+- Configure: `cmake -S . -B Build -D CMAKE_BUILD_TYPE=Release -D SDL2_ROOT=../externals/install/SDL`
+- Build: `cmake --build Build --verbose`
 
 ## CMakeLists.txt
 - [find_package()](https://cmake.org/cmake/help/latest/command/find_package.html)

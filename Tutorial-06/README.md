@@ -1,17 +1,18 @@
+# Non-CMake dependency and find_package(): Module Mode
 
 ## Build Procedure
-- build SDL
+- Build SDL
   - `cmake -S . -B Build -D CMAKE_INSTALL_PREFIX=../install/SDL`
   - `cmake --build Build --target install`
-- build imgui (cd externals/imgui-cmake)
+- Build imgui (cd externals/imgui-cmake)
   - `cmake -S . -B Build -D SDL2_ROOT=../install/SDL`
   - `cmake --build Build`
-- configure: `cmake -S . -B Build -D CMAKE_BUILD_TYPE=Release -D SDL2_ROOT=../externals/install/SDL`
-- build: `cmake --build Build --verbose`
+- Configure: `cmake -S . -B Build -D CMAKE_BUILD_TYPE=Release -D SDL2_ROOT=../externals/install/SDL`
+- Build: `cmake --build Build --verbose`
 
 ## CMakeLists.txt
 - [add_subdirectory()](https://cmake.org/cmake/help/latest/command/add_subdirectory.html)
-  - out-of-tree source: \<binary_dir\>
+  - Out-of-tree source: \<binary_dir\>
 - [find_package()](https://cmake.org/cmake/help/latest/command/find_package.html)
   - `cmake -S . -B Build -D CMAKE_BUILD_TYPE=Release -D SDL2_ROOT=../externals/install/SDL --debug-find-pkg=imgui`
   - Search modes:
