@@ -1,4 +1,5 @@
-# Dependency and find_package(): Config Mode
+# [05] Dependency and find_package(): Config Mode
+[+](./CMakeLists.txt)
 
 ## Build Procedure
 - Build SDL
@@ -30,3 +31,5 @@
 - [include()](https://cmake.org/cmake/help/latest/command/include.html)
   - [CMAKE_MODULE_PATH](https://cmake.org/cmake/help/latest/variable/CMAKE_MODULE_PATH.html)
 
+
+[-](../README.md)

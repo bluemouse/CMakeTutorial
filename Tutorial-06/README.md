@@ -1,4 +1,5 @@
-# Non-CMake dependency and find_package(): Module Mode
+# [06] Non-CMake dependency and find_package(): Module Mode
+[+](./CMakeLists.txt)
 
 ## Build Procedure
 - Build SDL
@@ -28,3 +29,6 @@
         - [other target properties](https://cmake.org/cmake/help/latest/manual/cmake-properties.7.html#target-properties)
       - [FindPackageHandleStandardArgs](https://github.com/Kitware/CMake/blob/master/Modules/FindPackageHandleStandardArgs.cmake): [find_package_handle_standard_args()](https://cmake.org/cmake/help/latest/module/FindPackageHandleStandardArgs.html)
 
+
+
+[-](../README.md)
