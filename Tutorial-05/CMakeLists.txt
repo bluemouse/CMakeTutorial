@@ -6,9 +6,9 @@ project(Pokemons
 )
 
 # @add the search path of CMake modules
-# list(APPEND CMAKE_MODULE_PATH
-#   "${CMAKE_SOURCE_DIR}/cmake"
-# )
+list(APPEND CMAKE_MODULE_PATH
+  "${CMAKE_SOURCE_DIR}/cmake"
+)
 
 option(BUILD_PALETTE  "Build application Palette" ON)
 
@@ -34,34 +34,28 @@ if(ENABLE_KALOS_REGION)
   list(APPEND HEADER_FILES include/Greninja.h)
 endif()
 
-add_library(objlib OBJECT
+add_library(${PROJECT_NAME} STATIC
   ${HEADER_FILES}
   ${SRC_FILES}
 )
-target_include_directories(objlib
-  PRIVATE
+target_include_directories(${PROJECT_NAME}
+  PUBLIC
     include
 )
 
-set_target_properties(objlib
+set_target_properties(${PROJECT_NAME}
   PROPERTIES
     POSITION_INDEPENDENT_CODE ON
 )
 
 if (ENABLE_MEGA_EVOLUTION)
-  target_compile_definitions(objlib PRIVATE ENABLE_MEGA)
+  target_compile_definitions(${PROJECT_NAME}
+    PUBLIC
+      ENABLE_MEGA
+  )
 endif()
 
-
-add_library(${PROJECT_NAME}_shared SHARED $<TARGET_OBJECTS:objlib>)
-set_target_properties(${PROJECT_NAME}_shared PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
-target_include_directories(${PROJECT_NAME}_shared INTERFACE include)
-
-add_library(${PROJECT_NAME}_static STATIC $<TARGET_OBJECTS:objlib>)
-set_target_properties(${PROJECT_NAME}_static PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
-target_include_directories(${PROJECT_NAME}_static INTERFACE include)
-
-add_library(Pokemons::Pokemons ALIAS ${PROJECT_NAME}_static)
+add_library(Pokemons::Pokemons ALIAS ${PROJECT_NAME})
 
 if(BUILD_PALETTE)
   add_subdirectory(applications/Pallet)

@@ -29,21 +29,21 @@ target_include_directories(${PROJECT_NAME}
 )
 
 # @dependencies
-# find_package(Vulkan REQUIRED)
-# target_link_libraries(${PROJECT_NAME}
-#   PRIVATE
-#     Vulkan::Vulkan
-# )
+find_package(Vulkan REQUIRED)
+target_link_libraries(${PROJECT_NAME}
+  PRIVATE
+    Vulkan::Vulkan
+)
 
 # @targets: SHARED
-# add_library(${PROJECT_NAME}_shared SHARED EXCLUDE_FROM_ALL
-#   ${HEADER_FILES}
-#   ${SRC_FILES}
-# )
-# set_target_properties(${PROJECT_NAME}_shared PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
+add_library(${PROJECT_NAME}_shared SHARED EXCLUDE_FROM_ALL
+  ${HEADER_FILES}
+  ${SRC_FILES}
+)
+set_target_properties(${PROJECT_NAME}_shared PROPERTIES OUTPUT_NAME ${PROJECT_NAME})
 
-# target_include_directories(${PROJECT_NAME}_shared
-#   PRIVATE
-#     include
-# )
+target_include_directories(${PROJECT_NAME}_shared
+  PRIVATE
+    include
+)
 

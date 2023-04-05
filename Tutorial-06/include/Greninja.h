@@ -1,9 +1,11 @@
+#pragma once
+
 #include <Pokemon.h>
 
-class Pikachu: public Pokemon {
-  public:
-    void sayHi() const;
+class Greninja : public Pokemon {
+public:
+  void sayHi() const;
 #if defined(ENABLE_MEGA)
-    virtual void megaEvolve();
+    virtual bool megaEvolve();
 #endif
 };

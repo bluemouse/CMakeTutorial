@@ -11,14 +11,13 @@ include(CMakeDependentOption)
 cmake_dependent_option(ENABLE_MEGA_EVOLUTION "Enable mega evolution in Gen VI" ON "ENABLE_KALOS_REGION" OFF)
 
 set(SRC_FILES
-  src/Pokemon.cpp
-  src/Pikachu.cpp
+  "src/Pokemon src/Pikachu.cpp"
   src/Meowth.cpp
 )
 
 # @list
-# include(CMakePrintHelpers)
-# cmake_print_variables(SRC_FILES)
+include(CMakePrintHelpers)
+cmake_print_variables(SRC_FILES)
 
 set(HEADER_FILES
   include/Pokemon.h

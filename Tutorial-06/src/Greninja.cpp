@@ -8,8 +8,9 @@ void Greninja::sayHi() const {
 
 
 #if defined(ENABLE_MEGA)
-void Greninja::megaEvolve() {
+bool Greninja::megaEvolve() {
   std::cout << "MEGA Greninja!!"<< std::endl;
+  return true;
 }
 #endif
 
