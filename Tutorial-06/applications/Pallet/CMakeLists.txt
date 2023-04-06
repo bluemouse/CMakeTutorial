@@ -19,7 +19,11 @@ add_executable(${PROJECT_NAME}
 )
 
 # @module mode
-# find_package(imgui REQUIRED)
+find_package(imgui REQUIRED)
+
+# # @print target properties
+# include(PrintTargetProperties)
+# print_target_properties(imgui::imgui)
 
 target_link_libraries(${PROJECT_NAME}
 PRIVATE
@@ -27,3 +31,5 @@ PRIVATE
   imgui::imgui
   Pokemons::Pokemons
 )
+
+# print_target_properties(Pallet)

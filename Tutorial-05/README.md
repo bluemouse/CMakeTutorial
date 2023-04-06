@@ -6,7 +6,7 @@
 <br>
 
 ## Build Procedure
-- Build SDL
+- Build SDL (*cd externals/SDL*)
   - `cmake -S . -B Build -D CMAKE_INSTALL_PREFIX=../install/SDL`
   - `cmake --build Build --target install`
 - Configure: `cmake -S . -B Build -D CMAKE_BUILD_TYPE=Release -D SDL2_ROOT=../externals/install/SDL`

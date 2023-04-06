@@ -1,6 +1,6 @@
 #### Clone me at https://git.autodesk.com/shiuea/CMakeTutorial
 #### Recording of [Tutorial Session I](https://autodesk.zoom.us/rec/share/96c21iHMpMEABrAkEo7mgEzruYfbC16oiSBYp2ygu_l9pd_uCaxuDzsBpuGjgxKJ.HybH4Z9I64lr0fb6) (Passcode: A#V3p.7a)
-
+#### Recording of [Tutorial Session II](https://autodesk.zoom.us/rec/share/h7dueM0SOIOUAAs4wk6YfKLD68P_Ni5puunvCSBXpSOhAeyMXuUUtR3aM8iVe-Nf.G6tqgoUqp7uI-QGA) (Passcode: aUk#$t57)
 <br>
 
 ## What is CMake?
