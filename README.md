@@ -1,6 +1,8 @@
 #### Clone me at https://git.autodesk.com/shiuea/CMakeTutorial
-#### Recording of [Tutorial Session I](https://autodesk.zoom.us/rec/share/96c21iHMpMEABrAkEo7mgEzruYfbC16oiSBYp2ygu_l9pd_uCaxuDzsBpuGjgxKJ.HybH4Z9I64lr0fb6) (Passcode: A#V3p.7a)
-#### Recording of [Tutorial Session II](https://autodesk.zoom.us/rec/share/h7dueM0SOIOUAAs4wk6YfKLD68P_Ni5puunvCSBXpSOhAeyMXuUUtR3aM8iVe-Nf.G6tqgoUqp7uI-QGA) (Passcode: aUk#$t57)
+#### Recording of [Tutorial Session I](https://autodesk.zoom.us/rec/share/96c21iHMpMEABrAkEo7mgEzruYfbC16oiSBYp2ygu_l9pd_uCaxuDzsBpuGjgxKJ.HybH4Z9I64lr0fb6) (Passcode: A#V3p.7a): covers Tutorial 1, 2, 3
+#### Recording of [Tutorial Session II](https://autodesk.zoom.us/rec/share/h7dueM0SOIOUAAs4wk6YfKLD68P_Ni5puunvCSBXpSOhAeyMXuUUtR3aM8iVe-Nf.G6tqgoUqp7uI-QGA) (Passcode: aUk#$t57): covers Tutorial 4, 5
+#### Recording of [Tutorial Session III](https://autodesk.zoom.us/rec/share/1XHca76P_hcG9xwSprkPg-g55LFJ4D0d8RW19C4JUQiHS694XZoON2-UqPMpvj_t.fvZAnfrGtUihyaXG) (Passcode: P.?Y3Wac): covers Tutorial 6
+
 <br>
 
 ## What is CMake?
